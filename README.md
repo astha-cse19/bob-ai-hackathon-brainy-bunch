@@ -1,4 +1,4 @@
-# 🚀 [Your Project Title Here]
+# 🚀 [Pharma Guard AI]
 
 > ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
 
@@ -10,7 +10,7 @@
 |---|---|
 | **Team Name** | [Brainy Bunch] |
 | **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Bansi Nakum] — [26dce055@charusat.edu.in] |
+| **Team Lead** | [Bansiben Nakum] — [26dce055@charusat.edu.in] |
 | **Members** | [Astha Patel], [Rutvi Prajapati], [Margi Domadiya] |
 
 ---
