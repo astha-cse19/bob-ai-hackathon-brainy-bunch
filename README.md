@@ -93,20 +93,21 @@ PharmaGuard-AI/
 > **Copy these exact steps from your [`docs/setup-guide.md`](docs/setup-guide.md)**
 
 ```bash
-1. install phython
+1. install python
 2. open the project folder in VS Code
-3. Install depencies:
-pip install -r requirements.txt
+3. Install extension
+py -m streamlit --version
+ cd "C:\Users\Jay Mataji\OneDrive"
+py -m streamlit run hackdata.py
 4. Run the app
-streamlit run app.py
 5. open
 
 ## 🖥️ Demo
 
 | Artifact | Link |
 |---|---|
-| 📹 Demo Video | [See demo/demo-video-link.txt](demo/demo-video-link.txt) |
-| 🌐 Live Demo | [See demo/live-demo-url.txt](demo/live-demo-url.txt) |
+| 📹 Demo Video | "C:\Users\User\Downloads\WhatsApp Video 2026-09-15 at 9.57.03 PM.mp4"
+| 🌐 Live Demo | "C:\Users\User\Downloads\WhatsApp Video 2026-09-15 at 9.57.03 PM.mp4"
 | 🖼️ Screenshots "C:\Users\User\Downloads\pharmaaiguide.pdf"
 | 📊 Presentation | [See presentation/"C:\Users\User\Downloads\🛡️ PharmaGuard AI (2) (1).pptx"](presentation/) |
 
@@ -122,8 +123,4 @@ streamlit run app.py
 
 ---
 
-## 🏅 What We're Most Proud Of
 
-[Tell the judges what part of your submission is strongest and worth paying close attention to.]
-
----
