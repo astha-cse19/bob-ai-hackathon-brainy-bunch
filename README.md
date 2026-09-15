@@ -8,10 +8,10 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
+| **Team Name** | [Brainy Bunch] |
 | **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Lead** | [Bansi Nakum] — [26dce055@charusat.edu.in] |
+| **Members** | [Astha Patel], [Rutvi Prajapati], [Margi Domadiya] |
 
 ---
 
@@ -19,7 +19,9 @@
 
 > In 2–3 sentences: What problem does your project solve? Who experiences this problem?
 
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+[Drug Safety Signal Detector & Regulatory
+Submission Readiness Checke: -This problem belongs to the Pharmaceutical industry , specifically within the specialized 
+domains of Pharmacovigilance (Drug Safety) and Regulatory Affairs.]
 
 ---
 
@@ -27,17 +29,17 @@
 
 > In 2–3 sentences: What did you build? How does it solve the problem above?
 
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
+[Our solution is an AI-powered platform that detects potential drug safety signals from medical data and checks regulatory submissions for missing or incorrect requirements. It provides early risk alerts and readiness checks, helping pharmaceutical teams identify issues faster, reduce regulatory delays, and improve patient safety.]
 
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
+- **Feature 1:** [The PharmaGuardAI detects possible safety signals for a selected drug.]
+- **Feature 2:** [The system uses PRR to compare an adverse event for one drug with other drugs.]
+- **Feature 3:** [The system groups adverse event into clinical categories.]
+- **Feature 4:** [The system checks whether the required sections of CTD Modules 1-5 are present in a regulatory dossier. ]
+- **Feature 5:** [When a CTD section is missing, the system identifies the severity and provides a recommendation.]
 
 ---
 
@@ -45,53 +47,59 @@
 
 | Category | Technologies |
 |---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+| **Languages** | [Python] |
+| **Frameworks** | [streamlit] |
+| **IBM Technologies** | [IBM BOB, IBM Cloud] |
+| **Databases** | [No databases included] |
+| **Other** | [none] |
 
 ---
 
 ## 📁 Repository Structure
 
-```
-├── src/                  # All source code
-├── docs/                 # Written documentation
-│   ├── problem-statement.md
-│   ├── solution-overview.md
-│   ├── architecture.md
-│   └── setup-guide.md
-├── demo/                 # Demo artifacts
-│   ├── screenshots/      # App screenshots
-│   └── demo-video-link.txt  # Link to demo video
-├── presentation/         # Slide deck
-└── submission.yaml       # Structured submission metadata
-```
-
----
+PharmaGuard-AI/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── data/
+│   ├── demo_safety_data.csv
+│   └── demo_ctd_dossier.txt
+│
+├── modules/
+│   ├── __init__.py
+│   ├── safety_detector.py
+│   ├── prr_analysis.py
+│   ├── event_clustering.py
+│   └── ctd_checker.py
+│
+├── utils/
+│   ├── __init__.py
+│   ├── data_cleaning.py
+│   └── helpers.py
+│
+├── assets/
+│   ├── logo.png
+│   └── screenshots/
+│
+└── docs/
+    ├── architecture.md
+    └── presentation.pdf
 
 ## ⚡ How to Run
 
 > **Copy these exact steps from your [`docs/setup-guide.md`](docs/setup-guide.md)**
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/[your-repo].git
-cd [your-repo]
-
-# 2. Install dependencies
-[your install command here]
-
-# 3. Configure environment
-cp .env.example .env
-# Edit .env with your values
-
-# 4. Run the project
-[your run command here]
-```
-
----
+1. install phython
+2. open the project folder in VS Code
+3. Install depencies:
+pip install -r requirements.txt
+4. Run the app
+streamlit run app.py
+5. open
 
 ## 🖥️ Demo
 
@@ -100,7 +108,7 @@ cp .env.example .env
 | 📹 Demo Video | [See demo/demo-video-link.txt](demo/demo-video-link.txt) |
 | 🌐 Live Demo | [See demo/live-demo-url.txt](demo/live-demo-url.txt) |
 | 🖼️ Screenshots | [See demo/screenshots/](demo/screenshots/) |
-| 📊 Presentation | [See presentation/slides.pdf](presentation/) |
+| 📊 Presentation | [See presentation/"C:\Users\User\Downloads\🛡️ PharmaGuard AI (2) (1).pptx"](presentation/) |
 
 ---
 
@@ -108,9 +116,9 @@ cp .env.example .env
 
 > Be honest — judges appreciate transparency over overclaiming.
 
-- [Limitation 1: e.g., "Authentication is mocked — not production-ready"]
-- [Limitation 2: e.g., "Only tested on Chrome"]
-- [Limitation 3: e.g., "Feature X is scaffolded but not fully implemented"]
+- [Limitation 1: No real-time medical data]
+- [Limitation 2: Rule-based analysis]
+- [Limitation 3: Limited CTD validation]
 
 ---
 
