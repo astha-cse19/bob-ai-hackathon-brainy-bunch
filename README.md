@@ -107,7 +107,7 @@ streamlit run app.py
 |---|---|
 | 📹 Demo Video | [See demo/demo-video-link.txt](demo/demo-video-link.txt) |
 | 🌐 Live Demo | [See demo/live-demo-url.txt](demo/live-demo-url.txt) |
-| 🖼️ Screenshots | [See demo/screenshots/](demo/screenshots/) |
+| 🖼️ Screenshots "C:\Users\User\Downloads\pharmaaiguide.pdf"
 | 📊 Presentation | [See presentation/"C:\Users\User\Downloads\🛡️ PharmaGuard AI (2) (1).pptx"](presentation/) |
 
 ---
